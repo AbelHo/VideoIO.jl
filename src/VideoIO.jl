@@ -1,10 +1,11 @@
 module VideoIO
 
-using Libdl
-using Requires, Dates, ProgressMeter
-using ImageCore: channelview, rawview
 using ColorTypes: RGB, Gray, N0f8, N6f10, YCbCr, Normed, red, green, blue
+using Dates
 using FileIO: File
+using ImageCore: channelview, rawview
+using Libdl
+using ProgressMeter
 using SnoopPrecompile
 
 using Base: fieldindex, RefValue, cconvert
